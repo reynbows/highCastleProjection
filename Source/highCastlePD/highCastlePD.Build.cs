@@ -1,16 +1,16 @@
 //
-// <#Module Name#>.Build.cs
+// highCastlePD.Build.cs
 //
-//  Generated on <#generation date#>
+//  Generated on February 25 2020
 //  Template created by Peter Gusev on 27 January 2020.
 //  Copyright 2013-2019 Regents of the University of California
 //
 
 using UnrealBuildTool;
 
-public class <#Module Name#> : ModuleRules
+public class highCastlePD : ModuleRules
 {
-	public <#Module Name#>(ReadOnlyTargetRules Target) : base(Target)
+	public highCastlePD(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 
@@ -47,7 +47,7 @@ public class <#Module Name#> : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
-				"deps<#Module Name#>"
+				"depshighCastlePD"
 				// ... add private dependencies that you statically link with here ...
 			}
 			);
